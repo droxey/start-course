@@ -2,7 +2,7 @@
 
 Course-level setup and instructor/agent ops live **here**. Not in lesson bodies. Not as skill-name dumps.
 
-This file is for instructors and agents standing up a course repo. It is not a published syllabus. Agent jobs are in [agents.md](agents.md).
+This file is for instructors and agents standing up a course repo. It is not a published syllabus. Agent jobs are in [AGENTS.md](AGENTS.md).
 
 ## Clone and placeholders
 
@@ -116,4 +116,4 @@ Channel naming (`#acs-xxxx`), invites, and send guardrails live in [SLACK.md](SL
 
 ## Agent jobs
 
-Refresh, runtime bumps, tech trends, missing curriculum, and the rest of the agent job list live in [agents.md](agents.md). Read that file after this one.
+Refresh, runtime bumps, tech trends, missing curriculum, and the rest of the agent job list live in [AGENTS.md](AGENTS.md). Read that file after this one.

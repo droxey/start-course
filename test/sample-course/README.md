@@ -23,7 +23,7 @@
 > - Org / repo convention: `droxey` / `sample-course`
 > - Preview: `npx docsify-cli serve test/sample-course` from the Syllabus-Template root, or `npm install && npm run serve` inside this folder.
 > - Assign go101.org chapters. Do not paste book text into lessons.
-> - Root `agents.md` placeholders stay empty on purpose. Only this SAMPLE is filled.
+> - Root `AGENTS.md` placeholders stay empty on purpose. Only this SAMPLE is filled.
 >
 > </details>
 
@@ -147,7 +147,7 @@ Class recordings will be available at [Dani's SAMPLE recordings index](https://b
 - [SAMPLE glossary](resources/SampleGlossary.md)
 - [Preview / serve guide](guides/PreviewThisSite.md)
 - [Go 101](https://go101.org/article/101.html) and [Go Optimizations 101](https://go101.org/optimizations/101.html) — official site, Tapir Liu
-- Root agent jobs: [`agents.md`](https://github.com/droxey/Syllabus-Template/blob/master/agents.md) in Syllabus-Template (not student-facing)
+- Root agent jobs: [`AGENTS.md`](https://github.com/droxey/start-course/blob/master/AGENTS.md) in start-course (not student-facing)
 
 ## Interview Topics
 

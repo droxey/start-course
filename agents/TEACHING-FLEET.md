@@ -2,7 +2,7 @@
 
 Instructor/agent ops for how Grok Bot teaching assistants work with this template. Not a published syllabus page. Do not link from `_sidebar.md`.
 
-Related: [TERM.md](../TERM.md) · [DECISIONS.md](../DECISIONS.md) · [agents.md](../agents.md)
+Related: [TERM.md](../TERM.md) · [DECISIONS.md](../DECISIONS.md) · [AGENTS.md](../AGENTS.md)
 
 ## Writer — AI-writing pass-gate
 

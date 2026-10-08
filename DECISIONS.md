@@ -108,7 +108,7 @@ Instructor/agent decision log for ACS course ops. Not a published syllabus page.
 
 - **Decision:** Ship `acs-term-start`, `acs-google-calendar-class-series`, `acs-slack` under `agents/skills/` (PR #32). Prefer **guardrails** wording over “do not” headings.
 - **Reason:** Dani asked skills saved to Syllabus-Template; fleet wording.
-- **Canon:** agents/skills/*; agents.md file map.
+- **Canon:** agents/skills/*; AGENTS.md file map.
 
 ### Code snippet review gate
 
@@ -125,14 +125,14 @@ Instructor/agent decision log for ACS course ops. Not a published syllabus page.
 ### Sole starter path lessons/Lesson1.md
 
 - **Decision:** Canonical lesson starter in Syllabus-Template is `lessons/Lesson1.md` (lowercase `lessons/` to match the repo). `templates/LESSON_TEMPLATE.md` is a pointer only.
-- **Reason:** agents.md had been updated to `Lessons/Lesson1.md` but that path did not exist; only `templates/LESSON_TEMPLATE.md` was on disk. Avoid `Lessons/` vs `lessons/` case collision.
-- **Canon:** lessons/Lesson1.md; agents.md; acs-lesson1-only-template; acs-lesson-plan.
+- **Reason:** AGENTS.md had been updated to `Lessons/Lesson1.md` but that path did not exist; only `templates/LESSON_TEMPLATE.md` was on disk. Avoid `Lessons/` vs `lessons/` case collision.
+- **Canon:** lessons/Lesson1.md; AGENTS.md; acs-lesson1-only-template; acs-lesson-plan.
 
 ### Restore LESSON_TEMPLATE sole starter name
 
 - **Decision:** Canonical lesson starter filename is `templates/LESSON_TEMPLATE.md`. `lessons/Lesson1.md` is a pointer only. Template content keeps **baseline bar fixes** (Activity topic titles, DONE WHEN callouts, Title Case author headings, no beat, session wording).
 - **Reason:** Dani 2026-09-21 — wants it called LESSON_TEMPLATE; bar fixes are baseline for the starter, not Lesson1-specific.
-- **Canon:** templates/LESSON_TEMPLATE.md; agents.md; acs-lesson1-only-template; acs-lesson-plan.
+- **Canon:** templates/LESSON_TEMPLATE.md; AGENTS.md; acs-lesson1-only-template; acs-lesson-plan.
 
 ### TypeSafe ACS pilot order
 
@@ -140,3 +140,10 @@ Instructor/agent decision log for ACS course ops. Not a published syllabus page.
 - **Reason:** Dani 2026-09-21 approved TypeSafe’s proposed pilot order.
 - **Canon:** agents/TEACHING-FLEET.md; TERM.md human gates; Teacher ↔ TypeSafe handoff.
 
+## 2026-10-08 — Agent file name
+
+### AGENTS.md is canonical
+
+- **Decision:** The agent jobs file is `AGENTS.md` (uppercase) at the repo root. The old lowercase `agents.md` and the one-line `AGENTS.md` pointer are merged into one file.
+- **Reason:** Dani wants the standard uppercase name that agent harnesses look for. Keeping both `AGENTS.md` and `agents.md` also collides on case-insensitive filesystems (macOS, Windows), so a clone there gets only one of them.
+- **Canon:** AGENTS.md; setup.md; agents/TEACHING-FLEET.md.
