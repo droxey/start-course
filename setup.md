@@ -50,7 +50,13 @@ npm install
 npm run serve
 ```
 
-Open `http://localhost:3000`. Enable GitHub Pages from the default branch. `.nojekyll` is already in the repo so Jekyll does not drop `_sidebar.md` / `_navbar.md`.
+Open `http://localhost:3000`.
+
+Publish with GitHub Actions, not branch deploy. In **Settings → Pages**, set **Source** to **GitHub Actions** (or run `gh api -X PUT repos/OWNER/REPO/pages -f build_type=workflow`). `.github/workflows/pages.yml` runs `scripts/build-site.sh`, which copies only the site into `_site/`: `index.html`, `README.md`, `_sidebar.md`, `_navbar.md`, `web/`, `lessons/`, `assignments/`, and `slides/`. Root ops docs (`AGENTS.md`, `DECISIONS.md`, `TERM.md`, `SLACK.md`, `CALENDAR.md`, `setup.md`, `updates.md`) and `agents/`, `templates/`, `grain/`, `reveal/`, `scripts/`, and `test/` are never published. To publish another path, add it to `PUBLIC` in the script.
+
+Branch deploy publishes the whole repo root, so do not use it. `.nojekyll` stays only for repos that have not switched yet.
+
+Other hosts: run `npm run build` (no dependencies; plain `sh`) and serve `_site/`. On Vercel, set the output directory to `_site`. On your own server, upload `_site/` only.
 
 CDN scripts in `index.html` are pinned jsDelivr URLs without SRI. That is accepted CDN trust for this template. Keep `executeScript` off and do not load `external-script`.
 

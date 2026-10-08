@@ -140,3 +140,10 @@ Instructor/agent decision log for ACS course ops. Not a published syllabus page.
 - **Reason:** Dani 2026-09-21 approved TypeSafe’s proposed pilot order.
 - **Canon:** agents/TEACHING-FLEET.md; TERM.md human gates; Teacher ↔ TypeSafe handoff.
 
+## 2026-10-08 — Published files
+
+### Root ops docs are not public
+
+- **Decision:** GitHub Pages deploys through GitHub Actions from an allowlist (`scripts/build-site.sh` → `_site/`), not from the repo root. Only `index.html`, `README.md`, `_sidebar.md`, `_navbar.md`, `web/`, `lessons/`, `assignments/`, and `slides/` are published. Agent and ops docs stay at the repo root for agents but are never on the site.
+- **Reason:** Dani: root `.md` files must not be public. Branch deploy served `AGENTS.md`, `agents.md`, `DECISIONS.md`, `TERM.md`, `SLACK.md`, `CALENDAR.md`, `setup.md`, `agents/`, and config files on every course site.
+- **Canon:** scripts/build-site.sh; .github/workflows/pages.yml; setup.md; agents.md.

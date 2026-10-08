@@ -5,6 +5,7 @@
   "scripts": {
     "start": "docsify serve .",
     "serve": "docsify serve .",
+    "build": "sh scripts/build-site.sh",
     "check-links": "node scripts/check-links.js",
     "test": "node --test scripts/check-links.test.js"
   },
