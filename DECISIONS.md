@@ -144,6 +144,6 @@ Instructor/agent decision log for ACS course ops. Not a published syllabus page.
 
 ### Root ops docs are not public
 
-- **Decision:** GitHub Pages deploys `_site/` (built by `scripts/build-site.sh`) through GitHub Actions, not the repo root. Every `.html`, `.css`, `.js`, and image file is public, plus `web/` and the Docsify runtime pages (`README.md`, `_sidebar.md`, `_navbar.md`). A `.md` file is public only if it is under `docs/` or linked from `_sidebar.md`, `_navbar.md`, or a table of contents on a public page; every other `.md` stays private. Agent and ops docs stay at the repo root for agents but are never on the site.
+- **Decision:** GitHub Pages deploys `_site/` (built by `scripts/build-site.sh`) through GitHub Actions, not the repo root. Every `.html`, `.css`, `.js`, and image file is public, plus everything under `lessons/` (linked or not), `web/`, and the Docsify runtime pages (`README.md`, `_sidebar.md`, `_navbar.md`). Any other `.md` file is public only if it is under `docs/` or linked from `_sidebar.md`, `_navbar.md`, or a table of contents on a public page; every other `.md` stays private. Agent and ops docs stay at the repo root for agents but are never on the site.
 - **Reason:** Dani: root `.md` files must not be public. Branch deploy served `AGENTS.md`, `agents.md`, `DECISIONS.md`, `TERM.md`, `SLACK.md`, `CALENDAR.md`, `setup.md`, `agents/`, and config files on every course site.
 - **Canon:** scripts/build-site.sh; .github/workflows/pages.yml; setup.md; agents.md.

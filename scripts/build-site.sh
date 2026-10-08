@@ -4,6 +4,7 @@
 #
 # Public:
 #   - every .html, .css, .js, and image file, and all of web/
+#   - everything under lessons/ (any case, e.g. Lessons/), linked or not, all file types
 #   - Docsify runtime pages: README.md, _sidebar.md, _navbar.md, _coverpage.md, _404.md
 #   - every .md under docs/
 #   - every .md linked from a public _sidebar.md or _navbar.md (nested ones too) or
@@ -165,8 +166,8 @@ function scan_assets(f,   line, ln, s, v, t, css) {
 END {
   for (i = 1; i <= nf; i++) {
     f = files[i]; lf = tolower(f)
-    if (lf ~ /\.(html?|css|m?js|png|jpe?g|gif|svg|webp|avif|ico|bmp)$/ || f ~ /^web\//) pub(f)
-    if (lf ~ /\.md$/ && f ~ /^docs\//) mdpub(f)
+    if (lf ~ /\.(html?|css|m?js|png|jpe?g|gif|svg|webp|avif|ico|bmp)$/ || f ~ /^web\// || lf ~ /^lessons\//) pub(f)
+    if (lf ~ /\.md$/ && (f ~ /^docs\// || lf ~ /^lessons\//)) mdpub(f)
   }
   n = split("README.md _sidebar.md _navbar.md _coverpage.md _404.md", rt, " ")
   for (i = 1; i <= n; i++) if (rt[i] in exists) mdpub(rt[i])
