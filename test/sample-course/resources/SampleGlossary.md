@@ -12,4 +12,4 @@ Short definitions for this demo course. Not a live ACS dictionary.
 | **Filled sample** | Concrete values instead of `COURSE_TITLE`, `REPO_NAME`, `GITHUB_ORG`. Lives only under `test/sample-course/`. |
 | **Blank starter** | The repo root. Placeholders stay there on purpose. |
 | **Module** | One published lesson file. Lab days reuse it instead of empty stubs. |
-| **Teaching voice** | Practical, I/you/we, example-first. See root `agents.md`. |
+| **Teaching voice** | Practical, I/you/we, example-first. See root `AGENTS.md`. |
