@@ -52,7 +52,7 @@ npm run serve
 
 Open `http://localhost:3000`.
 
-Publish with GitHub Actions, not branch deploy. In **Settings → Pages**, set **Source** to **GitHub Actions** (or run `gh api -X PUT repos/OWNER/REPO/pages -f build_type=workflow`). `.github/workflows/pages.yml` runs `scripts/build-site.sh`, which copies only the site into `_site/`: `index.html`, `README.md`, `_sidebar.md`, `_navbar.md`, `web/`, `lessons/`, `assignments/`, and `slides/`. Root ops docs (`AGENTS.md`, `DECISIONS.md`, `TERM.md`, `SLACK.md`, `CALENDAR.md`, `setup.md`, `updates.md`) and `agents/`, `templates/`, `grain/`, `reveal/`, `scripts/`, and `test/` are never published. To publish another path, add it to `PUBLIC` in the script.
+Publish with GitHub Actions, not branch deploy. In **Settings → Pages**, set **Source** to **GitHub Actions** (or run `gh api -X PUT repos/OWNER/REPO/pages -f build_type=workflow`). `.github/workflows/pages.yml` runs `scripts/build-site.sh`, which copies the public files into `_site/`. Every `.html`, `.css`, `.js`, and image file is public, plus `web/` and the Docsify runtime pages (`README.md`, `_sidebar.md`, `_navbar.md`). A `.md` file is public only if it is under `docs/` or linked from `_sidebar.md`, `_navbar.md`, or a table of contents on a public page; every other `.md` stays private. To publish a page, link it from `_sidebar.md` (or a TOC) or put it under `docs/`. The script warns about body links from public pages to private `.md` files, because those links break on the site (`--strict` fails on them).
 
 Branch deploy publishes the whole repo root, so do not use it. `.nojekyll` stays only for repos that have not switched yet.
 

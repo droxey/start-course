@@ -15,3 +15,5 @@ jobs:
       - run: npm install
       - run: npm test
       - run: npm run check-links
+      # Lists links from public pages to private .md files (non-strict for now).
+      - run: sh scripts/build-site.sh

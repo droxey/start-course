@@ -1,4 +1,4 @@
-# Deploy only the allowlisted site files (scripts/build-site.sh), not the repo root.
+# Deploy only the public site files (scripts/build-site.sh), not the repo root.
 # One-time per repo: Settings -> Pages -> Source: "GitHub Actions".
 name: Pages
 on:
