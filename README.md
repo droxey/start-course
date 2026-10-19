@@ -114,7 +114,7 @@ Your Gradescope login is your school email. Set or reset your password at [https
 **To pass this course, you must**:
 
 - Complete all required assignments
-- Pass all projects against the associated rubric
+- Pass all projects against the associated rubric (see [Rubrics](rubrics/README.md))
 - Pass the final summative assessment against the rubric
 - Participate in class and follow the attendance policy
 - Make up classwork from every absence
