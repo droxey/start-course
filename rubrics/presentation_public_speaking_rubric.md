@@ -3,7 +3,7 @@
 Name: ___________________<br>
 Date: ____________________
 
-_Check each box that you can demonstrate. Score each row with a number between **0 to 4**. Please use 0.5 increments in your score._
+_Check each box that you can demonstrate. Score each row with a number between **1 to 4**. Please use 0.5 increments in your score._
 
 | Topic | Beginner (1) | Initial Mastery (2) | Approaching Mastery (3) | Mastery (4) |
 | ----- | ------------ | ------------------- | ----------------------- | ----------- |

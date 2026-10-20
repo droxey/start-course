@@ -1,6 +1,6 @@
 # Writing & Blog Post Rubric
 
-| Topic | Initial Mastery (0-1) | Approaching Mastery (1-2) | Overtaking Mastery (2-3) | Innovating (3-4) |
+| Topic | Initial Mastery (0-1) | Approaching Mastery (1.5-2) | Overtaking Mastery (2.5-3) | Innovating (3.5-4) |
 | ----- | --------------------- | ------------------------- | ------------------------ | ---------------- |
 | **Hook**<br>_Start of the post_<br><br>Score _____ | ☐ Post has no image or context setting to engage the reader | ☐ Post includes image and context to engage the reader | ☐ Post includes image and context that is relevant to your posts intended audience | ☐ Post begins with a compelling image/context that immediately sparks curiosity in the reader<br>☐ Post explicitly states the topic, purpose, and benefits readers will gain from the post |
 | **Evidence**<br><br>Score _____ | ☐ Post makes claims without linking to any supporting evidence | ☐ Post supports claims with some evidence, though links are not always relevant or research backed | ☐ Post supports multiple claims with evidence, linking to high quality credible research and resources throughout piece | ☐ Post pioneers new research by building on multiple credible sources and data to deliver new insights to a field |
