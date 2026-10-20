@@ -2,7 +2,7 @@
 
 ## Coding Challenge Scoring Rubrics
 
-> Filled example of the [project rubric template](project_rubric_template.md).
+> Filled example of the [project rubric template](../rubrics/project_rubric_template.md).
 
 ### Word Jumble Project Submission (6 points to pass)
 
