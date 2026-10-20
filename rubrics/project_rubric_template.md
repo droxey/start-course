@@ -11,7 +11,7 @@
 > - Keep the six columns (row label, then scores 0 to 4). Add or remove requirement rows as needed.
 > - Set `<N>` to the passing score. The source rubrics use 3 points per row (Met All Expectations on every row): 2 rows = 6 points to pass, 3 rows = 9 points to pass.
 > - Link the heading to your submission page if you have one.
-> - See the filled [Word Jumble example](word_jumble_rubric_example.md).
+> - See the filled [Word Jumble example](../rubrics/word_jumble_rubric_example.md).
 >
 > </details>
 

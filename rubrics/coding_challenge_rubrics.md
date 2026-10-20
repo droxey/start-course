@@ -2,7 +2,7 @@
 
 ## Coding Challenge Scoring Rubrics
 
-> Scoring a project? Start from the [project rubric template](project_rubric_template.md). See the [Word Jumble example](word_jumble_rubric_example.md).
+> Scoring a project? Start from the [project rubric template](../rubrics/project_rubric_template.md). See the [Word Jumble example](../rubrics/word_jumble_rubric_example.md).
 
 ### Published Technical Article Submission (9 points to pass)
 
