@@ -12,6 +12,7 @@ Generic rubrics you can drop into any course. Each one keeps the original rows, 
 | [Word Jumble Rubric (Example)](../rubrics/word_jumble_rubric_example.md) | A filled-in copy of the project rubric template |
 | [Internship/Job Readiness Rubric](../rubrics/internship_job_readiness_rubric.md) | Career readiness check-ins with a coach |
 | [Instructor Hiring Rubric](../rubrics/instructor_hiring_rubric.md) | Interviewing instructor candidates |
+| [Hackathon Rubric](../rubrics/hackathon_rubric.md) | Hackathon products and pitch presentations |
 
 ## How to Score
 
