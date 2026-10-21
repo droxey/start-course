@@ -14,6 +14,8 @@ Generic rubrics you can drop into any course. Each one keeps the original rows, 
 | [Instructor Hiring Rubric](../rubrics/instructor_hiring_rubric.md) | Interviewing instructor candidates |
 | [Hackathon Rubric](../rubrics/hackathon_rubric.md) | Hackathon products and pitch presentations |
 
+Scoring stays in the Hackathon Rubric. Event-page copy lives in [templates/hackathon_vibe_coding.md](../templates/hackathon_vibe_coding.md).
+
 ## How to Score
 
 - Check each `☐` you can demonstrate. In your copy, change it to `☑`.
