@@ -10,5 +10,6 @@
   - [Project Rubric Template](rubrics/project_rubric_template.md)
   - [Word Jumble Example](rubrics/word_jumble_rubric_example.md)
   - [Hackathon](rubrics/hackathon_rubric.md)
+  - [Vibe Coding Hackathon Template](templates/hackathon_vibe_coding.md)
   - [Internship/Job Readiness](rubrics/internship_job_readiness_rubric.md)
   - [Instructor Hiring](rubrics/instructor_hiring_rubric.md)
